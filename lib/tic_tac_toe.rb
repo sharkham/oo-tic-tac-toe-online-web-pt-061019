@@ -126,7 +126,7 @@ class TicTacToe
   end
 
   def over?
-    if won? == true || draw? == true
+    if won? || draw?
       true
     else
       false
