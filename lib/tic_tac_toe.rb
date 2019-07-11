@@ -134,16 +134,16 @@ class TicTacToe
   end
 
   def winner
-    if won? == true
+    if won?
       @winner
     end
     @winner
   end
 
-  # def play
-  #   until over? == true
-  #     turn
-  #   end
+  def play
+    until over? == true
+      turn
+    end
   #   # if won? == true
   #   #   puts "Congratulations, #{@winner}!"
   #   # elsif draw? == true
@@ -151,6 +151,6 @@ class TicTacToe
   #   # else
   #   #   puts "Error."
   #   # end
-  # end
+  end
 
 end
