@@ -144,13 +144,13 @@ class TicTacToe
     until over? == true
       turn
     end
-  #   # if won? == true
-  #   #   puts "Congratulations, #{@winner}!"
-  #   # elsif draw? == true
-  #   #   puts "The game was a draw."
-  #   # else
-  #   #   puts "Error."
-  #   # end
+    if won? == true
+      puts "Congratulations, #{@winner}!"
+    elsif draw? == true
+      puts "The game was a draw."
+    else
+      puts "Error."
+    end
   end
 
 end
