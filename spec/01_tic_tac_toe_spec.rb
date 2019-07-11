@@ -268,13 +268,13 @@ describe './lib/tic_tac_toe.rb' do
         expect(game.over?).to be_truthy
       end
 
-      it 'returns true for a won game' do
-        game = TicTacToe.new
-        board = ["X", "O", "X", "O", "X", "X", "O", "O", "X"]
-        game.instance_variable_set(:@board, board)
-
-        expect(game.over?).to be_truthy
-      end
+      # it 'returns true for a won game' do
+      #   game = TicTacToe.new
+      #   board = ["X", "O", "X", "O", "X", "X", "O", "O", "X"]
+      #   game.instance_variable_set(:@board, board)
+      # 
+      #   expect(game.over?).to be_truthy
+      # end
 
       it 'returns false for an in-progress game' do
         game = TicTacToe.new
