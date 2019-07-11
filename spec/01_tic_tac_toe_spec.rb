@@ -272,7 +272,7 @@ describe './lib/tic_tac_toe.rb' do
         game = TicTacToe.new
         board = ["X", "O", "X", "O", "X", "X", "O", "O", "X"]
         game.instance_variable_set(:@board, board)
-      
+
         expect(game.over?).to be_truthy
       end
 
